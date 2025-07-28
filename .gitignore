@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE and Editor Folders
+.vscode/
+.idea/
+
+# --- Project Specific Folders & Files ---
+
+# Ignore the large training data from Round 1A
+adobe1a/training_data/
+adobe1a/trained_model/gold_standard_dataset.csv
+
+# Ignore all input and output folders for Round 1B
+adobe1b/input1/
+adobe1b/input2/
+adobe1b/input3/
+adobe1b/outputs/
+
+# Ignore the test folder from 1A
+adobe1a/test/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
